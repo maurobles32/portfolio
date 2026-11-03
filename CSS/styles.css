@@ -182,14 +182,14 @@ font-size: 1.1rem;
 }
 
 .hero-content h1 {
-font-size: 3.5rem;
+font-size: 3rem;
 font-weight: 800;
 margin: 0.5rem 0;
 line-height: 1.1;
 }
 
 .hero-content h2 {
-font-size: 1.75rem;
+font-size: 1.4rem;
 color: var(--text-muted);
 font-weight: 600;
 margin-bottom: 1rem;
@@ -197,7 +197,7 @@ margin-bottom: 1rem;
 
 .hero-content p {
 color: var(--text-muted);
-font-size: 1.1rem;
+font-size: 1.05rem;
 margin-bottom: 2rem;
 }
 
@@ -229,8 +229,8 @@ justify-content: center;
 }
 
 .image-wrapper {
-width: 350px;
-height: 400px;
+width: 300px;
+height: 300px;
 border-radius: 50%;
 overflow: hidden;
 border: 5px solid var(--primary-color);
@@ -349,7 +349,7 @@ transform: translateY(-5px);
 }
 
 .project-img {
-height: 230px;
+height: 200px;
 background-color: var(--border-color);
 }
 
@@ -540,6 +540,7 @@ padding: 3rem 0;
 }
 
 .footer-container {
+>
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -571,7 +572,7 @@ gap: 2rem;
 }
 
 .hero-content h1 {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
 }
 
 .about-grid,
@@ -608,4 +609,6 @@ gap: 2rem;
     gap: 1.5rem;
     text-align: center;
 }
+
+
 }
